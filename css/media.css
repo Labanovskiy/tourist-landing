@@ -1,0 +1,117 @@
+@media (max-width: 1200px) {
+    .form {
+        width: auto;
+        height: auto;
+    }
+    .form__input--location {
+        width: 200px;
+    }
+    .form__input--activity {
+        width: 150px;
+    }
+    .form__input--date {
+        width: 150px;
+    }
+    .form__input--guests {
+        width: 150px;
+    }
+}
+
+
+@media (max-width: 1050px) {
+    .header {
+        height: auto;
+        min-height: 400x;
+        border-radius: 0 0 30px 30px;
+    }
+    .container--header {
+        justify-content: flex-start;
+        row-gap: 90px;
+    }
+    .nav-list {
+        display: none;
+    }
+    .nav__user {
+        display: none;
+    }
+    .nav-toggle {
+        display: block;
+    }
+    .header__title {
+        font-size: 32px;
+    }
+    .main {
+        row-gap: 60px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .title-1 {
+        font-size: 25px;
+    }
+    .section__header {
+        margin-bottom: 34px;
+    }
+    .section__card--popular {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .card__img {
+        width: 100%;
+    }
+    .section__card--travel {
+        grid-template-columns: repeat(1, 1fr)
+    }
+    .card__title--desc {
+        font-size: 15px;
+        line-height: 20px;
+        align-items: flex-start;
+        row-gap: 16px;
+    }
+    .about-us__title {
+        font-size: 25px;
+    }
+    .about-us__text {
+        font-size: 10px;
+    }
+    .footer {
+        padding: 60px 0px;
+    }
+    .footer__row {
+        grid-template-columns: repeat(2, 3fr);
+    }
+    
+}
+
+@media (max-width: 800px) {
+    .form {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+    .form__input-wrapper {
+        width: 100%;
+    }
+    .autoComplete_wrapper > input {
+        width: auto !important;
+    }
+    .seach-btn {
+        width: 100%;
+    }
+    .section__card--popular {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .section__card--hotels {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card__rating {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+    .section__card--hotels {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer__row {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
